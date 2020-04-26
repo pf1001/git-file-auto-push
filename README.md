@@ -1,9 +1,12 @@
 # git-auto-push.sh
 
+## Summary
+Automatically push a file to github when its saved.
+
 ## Overview 
 <p>The aim of this script is to allow for auto uploads of documentation once it is saved. 
-In the example in teh script i used cherrytree note taking application.
-Inotifywait is used to detect the event "close_write" which occurs when a document is saved.</p>
+In the example in the script i used cherrytree note taking application.</p>
+<p>Inotifywait is used to detect the event "close_write" which occurs when a document is saved.</p>
 
 <p>By using github it is easy to keep document revisions and to roll back revisions. 
 The script will push to a branch so you will need to manually merge your documentation from your branch into master when you are ready to do so.
