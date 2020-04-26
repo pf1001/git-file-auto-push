@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #The example below is for a cherrytree note taking application.
 #inotiywait looks for the event "CLOSE_NOWRITE,CLOSE" which is the save event.
 #To get this to work for you:
