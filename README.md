@@ -24,7 +24,8 @@ The script will push to a branch so you will need to manually merge your documen
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```@reboot /usr/local/bin/git-auto-push.sh```
 
 8. To manually test simply run ```/usr/local/bin/git-auto-push.sh``` in a terminal. Then update your file. When you make changes to your file listed in the script then it automatically gets pushed to git.
-Finally restart cron ```service cron restart``` and do the same test with the script now running as a cronjob. 
+
+Finally restart cron ```service cron restart``` and do the same test with the script now running as a cronjob.
 
 [1]: https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
 [2]: https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address
