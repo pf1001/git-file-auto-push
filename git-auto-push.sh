@@ -7,10 +7,10 @@
 
 while true; 
 do
-	inotifywait -qq -e CLOSE_NOWRITE,CLOSE ~/github/cherrytree-notes/CheerryTree.ctb;
-	git checkout testbranch
-	cd ~/github/cherrytree-notes;
-	git add CheerryTree.ctb;
-	git commit -m "Automated update";
-	git push -u origin testbranch;
+	inotifywait -qq -e CLOSE_NOWRITE,CLOSE ~/github/cherrytree-notes/CheerryTree.ctb
+	cd ~/github/cherrytree-notes
+	git checkout test
+	#git add "CheerryTree.ctb"
+	git commit -m "Automated update" ~/github/cherrytree-notes/CheerryTree.ctb
+	git push -u origin test
 done
