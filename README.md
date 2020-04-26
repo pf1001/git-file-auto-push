@@ -2,6 +2,7 @@
 
 ## Overview 
 <p>The aim of this script is to allow for auto uploads of documentation once it is saved. 
+In the example in teh script i used cherrytree note taking application.
 Inotifywait is used to detect the event "close_write" which occurs when a document is saved.</p>
 
 <p>By using github it is easy to keep document revisions and to roll back revisions. 
